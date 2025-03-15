@@ -101,6 +101,7 @@ ol {
 }
 
 /* Sections styles */
+.order-section {}
 
 .features-section {
   background-color: var(--background-dark-color);
@@ -126,6 +127,10 @@ ol {
 
 .team-member-title {
   text-align: center;
+}
+
+.portfolio-section-title {
+  text-transform: capitalize;
 }
 
 .portfolio-section-title {
