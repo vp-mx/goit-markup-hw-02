@@ -1,0 +1,151 @@
+:root {
+  --text-dark-color: #434455;
+  --text-light-color: #ffffff;
+  --text-light-secondary-color: #f4f4fd;
+  --title-color: #2e2f42;
+  --background-light-color: #ffffff;
+  --background-secondary-color: #f4f4fd;
+  --background-dark-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --hover-color: #404bbf;
+}
+
+/* Global styles */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-dark-color);
+  background-color: var(--background-light-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+button {
+  line-height: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.order-btn {
+  font-weight: 500;
+  background-color: var(--accent-color);
+  color: var(--text-light-color);
+  letter-spacing: 0.04em;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--hover-color);
+}
+
+.text-link:hover,
+.text-link:focus {
+  color: var(--hover-color);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.company-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.logo-accent {
+  color: var(--title-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  color: var(--title-color);
+}
+
+/* Sections styles */
+
+.features-section {
+  background-color: var(--background-dark-color);
+  color: var(--text-light-color);
+}
+
+.main-title {
+  color: var(--text-light-color);
+  text-align: center;
+}
+
+.team-section {
+  background-color: var(--background-secondary-color);
+}
+
+.team-section-title {
+  text-align: center;
+}
+
+.team-member-container {
+  background-color: var(--background-light-color);
+}
+
+.team-member-title {
+  text-align: center;
+}
+
+.portfolio-section-title {
+  text-align: center;
+}
+
+.portfolio-item-title {}
+
+.portfolio-item-text {}
+
+/* Footer */
+
+.footer {
+  background-color: var(--background-dark-color);
+}
+
+.footer .logo-accent {
+  color: var(--text-light-secondary-color);
+}
+
+.footer-text {
+  color: var(--text-light-secondary-color);
+}
