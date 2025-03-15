@@ -101,17 +101,22 @@ ol {
 }
 
 /* Sections styles */
-.order-section {}
-
-.features-section {
+.order-section {
   background-color: var(--background-dark-color);
   color: var(--text-light-color);
 }
 
-.main-title {
+.order-title {
   color: var(--text-light-color);
   text-align: center;
 }
+
+.features-section-title {
+  text-align: center;
+}
+
+.features-section-text {}
+
 
 .team-section {
   background-color: var(--background-secondary-color);
@@ -119,6 +124,7 @@ ol {
 
 .team-section-title {
   text-align: center;
+  text-transform: capitalize;
 }
 
 .team-member-container {
@@ -127,6 +133,10 @@ ol {
 
 .team-member-title {
   text-align: center;
+}
+
+.team-member-text {
+  font-size: inherit;
 }
 
 .portfolio-section-title {
